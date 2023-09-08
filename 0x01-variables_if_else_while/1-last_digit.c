@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * mai-Entry point
+ * main-Entry point
  * Description:print value of n
  * Return:0
  */
