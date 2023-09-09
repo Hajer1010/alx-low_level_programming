@@ -8,7 +8,7 @@ int main(void)
 {
 	int fnum = 0, snum;
 
-	while (fnum <= 9)
+	while (fnum <= 99)
 	{
 		snum = fnum;
 		while (snum <= 99)
