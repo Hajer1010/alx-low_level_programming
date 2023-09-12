@@ -33,7 +33,7 @@ int main(void)
 		init = numlength(mx) - 1 - numlength(f1);
 		while (f10 > 0 && init > 0)
 		{
-			printf("%d", 0)
+			printf("%d", 0);
 			init--;
 		}
 		printf("%lu", f1);
