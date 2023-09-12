@@ -1,5 +1,23 @@
 #include "main.h"
 /**
+ * numlength-return the length
+ * @num: input
+ * Return: number of digits
+ */
+int numlength(int num)
+{
+	int length = 0;
+
+	if (!num)
+		return (1);
+	while (num)
+	{
+		num = num / 10;
+		length += 1;
+	}
+	return (length);
+}
+/**
  * main-entry point
  * Return: 0
  */
