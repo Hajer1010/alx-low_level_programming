@@ -5,10 +5,14 @@
  */
 void print_numbers(void)
 {
-	int i = 0;
+	int num = 0;
 
-	for (i >= 0; i <= 9; i++)
+	do {
 		_putchar(i + 48);
+		num++;
+	}
+
+	while (num >= 0 && num <= 9)
 
 	_putchar('\n');
 
