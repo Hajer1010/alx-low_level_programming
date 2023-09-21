@@ -30,7 +30,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			f = n1[i] - '0';
 		else
 			f = 0;
-		if (j <= 0)
+		if (j >= 0)
 			s = n2[j] - '0';
 		else
 			s = 0;
