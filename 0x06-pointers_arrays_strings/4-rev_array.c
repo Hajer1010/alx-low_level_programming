@@ -7,11 +7,9 @@
  */
 void reverse_array(int *a, int n)
 {
-	int x;
-	int y;
-	int z;
+	int x, y, z;
 
-	for (x = 0; y = (n - 1); x < y; x++; y++)
+	for (x = 0; y = (n - 1); x < y; x++; y--)
 	{
 		z = a[x];
 		a[x] = a[y];
