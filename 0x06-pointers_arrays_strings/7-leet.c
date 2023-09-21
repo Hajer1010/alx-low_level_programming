@@ -7,8 +7,8 @@
 char *leet(char *s)
 {
 	char *sp = s;
-	int value[] = {'A', 'E', 'O', 'T', 'L'};
-	char key[] = {4, 3, 0, 7, 1};
+	int key[] = {'A', 'E', 'O', 'T', 'L'};
+	char value[] = {4, 3, 0, 7, 1};
 	unsigned int n;
 
 	while (*s)
