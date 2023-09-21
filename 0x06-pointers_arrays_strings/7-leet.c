@@ -7,13 +7,13 @@
 char *leet(char *s)
 {
 	char *sp = s;
-	int key[] = {'A', 'E', 'O', 'T', 'L'};
-	char value[] = {4, 3, 0, 7, 1};
+	char key[] = {'A', 'E', 'O', 'T', 'L'};
+	int value[] = {4, 3, 0, 7, 1};
 	unsigned int n;
 
 	while (*s)
 	{
-		for (n = 0. n < sizeof(key) / sizeof(char); n++)
+		for (n = 0; n < sizeof(key) / sizeof(char); n++)
 		{
 			if (*s == key[n] || *s == key[n] + 32)
 			{
