@@ -31,6 +31,7 @@ int palindrome(char *s, int len, int i)
 
 	if (s[i] == s[len - i - 1])
 		return (palindrome(s, len, i + 1));
+	return (0);
 }
 /**
  * is_palindrome - checks if a string is a palindrome
