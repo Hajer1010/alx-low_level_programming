@@ -8,7 +8,12 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc == 2)
+	if (argc == 1 || argc > 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else if (argc == 2)
 	{
 		int i, mini = 0, m = atoi(argv[1]);
 		int c[] = {25, 10, 5, 2, 1};
