@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlio.h>
+#include <stdlib.h>
 /**
  * main-entrypint
  * @argv:string
  * @argc: int
- * Return: 0
+ * Return: 0 1
  */
 int main(int argc, char *argv[])
 {
