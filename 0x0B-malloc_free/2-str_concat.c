@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * strlen-string length
+ * _strlen-string length
  * @s: string
  * Return: int
  */
-int strlen(char *s)
+int _strlen(char *s)
 {
 	int z;
 
@@ -32,8 +32,8 @@ char *str_concat(char *s1, char *s2)
 		s2 = "\0";
 	}
 
-	si1 = strlen(s1);
-	si2 = strlen(s2);
+	si1 = _strlen(s1);
+	si2 = _strlen(s2);
 	ptr = malloc((si1 + si2) * sizeof(char) + 1);
 	if (ptr == 0)
 	{
