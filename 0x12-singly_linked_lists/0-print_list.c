@@ -1,4 +1,9 @@
 #include "lists.h"
+/**
+ * print_list - function
+ * @h: ptr
+ * Return: length og list
+ */
 size_t print_list(const list_t *h)
 {
 	size_t c = 0;
