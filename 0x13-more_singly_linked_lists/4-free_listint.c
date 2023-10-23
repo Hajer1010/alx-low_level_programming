@@ -1,16 +1,17 @@
 #include "lists.h"
-void free_list(list_t *head)
+/**
+ * free_listint - function
+ * @head: ptr
+ * Return:ptr
+ */
+void free_listint(listint_t *head)
 {
-	list_t *node, *next_node;
+	listint_t *node;
 
-	if (!head)
-		return;
-	node = head;
-	while (node)
+	while (head)
 	{
-		next_node = node->next;
-		free(node->str);
+		node = head;
+		head = head->next;
 		free(node);
-		node = next_node;
 	}
 }

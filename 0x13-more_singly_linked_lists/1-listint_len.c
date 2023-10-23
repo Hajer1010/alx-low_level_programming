@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
- * list_len - function
+ * listint_len - function
  * @h: ptr
  * Return: length
  */
-size_t list_len(const list_t *h)
+size_t listint_len(const listint_t *h)
 {
 	size_t c = 0;
 
