@@ -2,22 +2,15 @@
 /**
  * print_listint - function
  * @h: ptr
- * Return: length og list
+ * Return: size
  */
 size_t print_listint(const listint_t *h)
 {
 	size_t c = 0;
 
-	while (h != NULL)
+	while (h)
 	{
-		if (h->str == NULL)
-		{
-			printf("[0] (nil)\n");
-		}
-		else
-		{
-			printf("[%d] %s\n", h->len, h->str);
-		}
+		printf("%d\n", h->n);
 		h = h->next;
 		c++;
 	}

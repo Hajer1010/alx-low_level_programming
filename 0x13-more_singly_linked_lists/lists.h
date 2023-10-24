@@ -1,5 +1,5 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef _LISTS_H
+#define _LISTS_H
 
 #include <stdio.h>
 #include <stdarg.h>
@@ -7,9 +7,8 @@
 #include <stdlib.h>
 
 /**
- * struct list_s - linked list
- * @len: length
- * @str: string
+ * struct listint_s - linked list
+ * @n: int
  * @next: ptr
  */
 
